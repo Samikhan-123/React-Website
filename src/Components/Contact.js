@@ -20,8 +20,8 @@ const Contact = () => {
                 <h1 className='text-center fw-bold py-4'>Contact Us</h1>
             </div>
 
-            <section style={{ width: '100%', height: 'auto' }} className="section_form">
-                <div style={{ width: '50%' }} className="center bg-light py-3 m-auto">
+            <section style={{ width: '100vw', height: 'auto' }} className="section_form">
+                <div style={{ width: '50vw' }} className="center bg-light py-3 m-auto ">
                     <form style={{ width: '90%' }} className="feed-form mx-auto" onSubmit={formik.handleSubmit}>
                         <input required placeholder="Name" type="text" name="name" onChange={formik.handleChange} value={formik.values.name}/>
                         <input required placeholder="Email" type="email" name="email" onChange={formik.handleChange} value={formik.values.email}/>
