@@ -2,8 +2,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 function MyCard(props) {
   return (
-    <Card style={{minWidth:'15rem',width:'22rem'}} className='col-sm-12 col-md-6 col-lg-4 justify-content-between m-2'>
-      <Card.Img variant="top" src={props.imgsrc} alt ='cardImg' />
+    <Card style={{ minWidth: '15rem', width: '22rem' }} className='col-sm-12 col-md-6 col-lg-4 justify-content-between m-2'>
+      <Card.Img variant="top" src={props.imgsrc} alt='cardImg' />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>

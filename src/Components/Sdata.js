@@ -30,7 +30,7 @@ const SerData = [
         imgsrc: android,
         title: 'Android Development'
     },
-    
+
 ];
 
 export default SerData;
